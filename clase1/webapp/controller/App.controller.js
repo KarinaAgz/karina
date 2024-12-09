@@ -16,6 +16,9 @@ function(Controller,MessageToast,JSONModel) {
         onInit: function(){
 
             
+        },
+        onOpenDialogHeader: function() {
+            this.getOwnerComponent().openHelloDialog();
         }
             
     });
